@@ -40,9 +40,7 @@
 
 ## Author
 
-:woman: **Meri Gogichashvili**
-
-- [GitHub](hhttps://github.com/alaodriss
+- [GitHub](hhttps://github.com/alaodriss)
 
 ## 🤝 Contributing
 - Contributions, issues, and feature requests are welcome!

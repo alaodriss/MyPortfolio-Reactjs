@@ -1,8 +1,8 @@
 export const soloProjects = [
   {
     id: 1,
-    title: 'Bookstore',
-    img: 'assets/bookstore.png',
+    title: 'Booki',
+    img: 'assets/booki.png',
     // link: 'https://melodic-boba-111583.netlify.app/',
     // github: 'https://github.com/Meri-MG/bookstore---react',
   },

@@ -1,10 +1,10 @@
 import React from 'react';
-import IMG1 from '../../assets/bookstore.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import IMG1 from '../../assets/booki.png';
+import IMG2 from '../../assets/GameOn.png';
+import IMG3 from '../../assets/freelance.png';
+import IMG4 from '../../assets/OhmyFood.png';
+import IMG5 from '../../assets/Capture d’écran 2023-04-29 à 16.25.11.png';
+import IMG6 from '../../assets/landing.png';
 
 import './portfolio.css';
 
@@ -12,62 +12,62 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Bookstore',
+      title: 'Booki',
       img: IMG1,
       description:
-        'BookStore app that allows users to store books and update progress',
-      technologies: 'React | Redux | Ruby on Rails',
-      link: 'https://melodic-boba-111583.netlify.app/',
-      github: 'https://github.com/Meri-MG/bookstore---react',
+        'The company wants to develop a website that allows users to find accommodation and activities in the city of their choice.',
+      technologies: 'HTML | CSS3 | FLEXBOX ',
+      link: 'https://alaodriss.github.io/Booki-travel-Html-Css-p2',
+      github: 'https://github.com/alaodriss/Booki-travel-Html-Css-p2',
     },
     {
       id: 2,
-      title: 'FakeStore',
+      title: 'OhmyFood',
       img: IMG4,
       description:
-        'FakeStore app that provides information about available products and their details',
-      technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+        'Ohmyfood! is a young startup that would like to impose itself on the catering market. The goal is to develop a 100% mobile site that lists the menus of gourmet restaurants',
+      technologies: 'Structuration CSS with la norme BEM | SCSS  | Animations',
+      link: 'https://alaodriss.github.io/OhmyFood-Html-Scss-responsive-p3/ ',
+      github: 'https://github.com/alaodriss/OhmyFood-Html-Scss-responsive-p3',
     },
     {
       id: 3,
-      title: 'To-Do-App',
+      title: 'GameOn',
       img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
-      github: 'https://github.com/Meri-MG/To-Do-List',
+      description: "work on a forked GitHub repo use separate files for HTML /CSS/ and JavaScript; always comment your code (describe each function and each class as well as the parts of the code that require more detail) manually test functionality form inputs and responsive display.",
+      technologies: 'JavaScript | CSS | HTML |  Mobile First',
+      link: 'https://alaodriss.github.io/GameOn-HTML5-CSS-Javascript-p4/',
+      github: 'https://github.com/alaodriss/GameOn-HTML5-CSS-Javascript-p4',
     },
     {
       id: 4,
-      title: 'Shelter',
+      title: 'Patmos',
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
+        'Fully responsive interactive website built based on Figma design "Freelance"',
+      technologies: 'JavaScript | SCSS | HTML ',
+      link: 'https://github.com/alaodriss/Patmos/tree/master',
       github: 'https://github.com/Meri-MG/shelter',
     },
     {
       id: 5,
-      title: 'World News',
+      title: 'Meteo',
       img: IMG5,
       description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
+        'Build a React JS weather app using the OpenWeatherMap API. We will be using axios to connect with our API.',
+      technologies: 'Reactjs | CSS | API' ,
+      link: 'https://meteo-reactjs.vercel.app/',
+      github: 'https://github.com/alaodriss/myMeteo-Reactjs',
     },
     {
       id: 6,
-      title: 'Math Resource',
+      title: 'Time Now',
       img: IMG6,
       description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
+        'Langing Page with Reactjs ',
+      technologies: 'Reactjs | Style Compoenets ',
+      link: 'https://timenow-landing-page-reactjs.vercel.app/',
+      github: 'https://github.com/alaodriss/time-now-landing-page-reactjs',
     },
   ];
 
