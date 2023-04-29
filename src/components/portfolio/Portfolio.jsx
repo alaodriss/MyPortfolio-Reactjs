@@ -3,7 +3,7 @@ import IMG1 from '../../assets/booki.png';
 import IMG2 from '../../assets/GameOn.png';
 import IMG3 from '../../assets/freelance.png';
 import IMG4 from '../../assets/OhmyFood.png';
-import IMG5 from '../../assets/Capture d’écran 2023-04-29 à 16.25.11.png';
+import IMG5 from '../../assets/met.png';
 import IMG6 from '../../assets/landing.png';
 import IMG7 from '../../assets/ecom.png';
 import IMG8 from '../../assets/movie.png';
