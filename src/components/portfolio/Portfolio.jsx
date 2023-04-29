@@ -5,6 +5,10 @@ import IMG3 from '../../assets/freelance.png';
 import IMG4 from '../../assets/OhmyFood.png';
 import IMG5 from '../../assets/Capture d’écran 2023-04-29 à 16.25.11.png';
 import IMG6 from '../../assets/landing.png';
+import IMG7 from '../../assets/ecom.png';
+import IMG8 from '../../assets/movie.png';
+import IMG9 from '../../assets/githubb.png';
+
 
 import './portfolio.css';
 
@@ -68,6 +72,36 @@ const Portfolio = () => {
       technologies: 'Reactjs | Style Compoenets ',
       link: 'https://timenow-landing-page-reactjs.vercel.app/',
       github: 'https://github.com/alaodriss/time-now-landing-page-reactjs',
+    },
+    {
+      id: 7,
+      title: 'E-commerce',
+      img: IMG7,
+      description:
+        'Web site E-commerce  ',
+      technologies: 'Reactjs | Style Compoenets | Redux | Api ',
+      link: 'https://ecommerce-react-five-omega.vercel.app/',
+      github: 'https://github.com/alaodriss/Ecommerce_React',
+    },
+    {
+      id: 8,
+      title: 'Moive',
+      img: IMG8,
+      description:
+        'Langing Page with Reactjs && Api for new Movie ',
+      technologies: 'Reactjs | Css | Api  ',
+      link: 'https://movie-react-api-alpha.vercel.app/',
+      github: 'https://github.com/alaodriss/movie-react-api',
+    },
+    {
+      id: 9,
+      title: 'Api Git',
+      img: IMG9,
+      description:
+        'Langing Page with Reactjs | Api Get For All user  ',
+      technologies: 'Reactjs | Style Compoenets | Api',
+      link: 'https://api-git-react.vercel.app/',
+      github: 'https://github.com/alaodriss/ApiGitReact',
     },
   ];
 
